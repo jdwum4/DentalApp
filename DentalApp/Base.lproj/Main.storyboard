@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MM7-We-mlV">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DentalApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,487 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdA-TD-6o7">
+                                <rect key="frame" x="161" y="350" width="262" height="58"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="Hu1-XS-H1l"/>
+                                    <constraint firstAttribute="width" constant="262" id="Z7i-ce-n2n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <size key="titleShadowOffset" width="50" height="20"/>
+                                <state key="normal" title="GALLERY">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cHI-MN-aaV" kind="show" id="BH6-W8-pUs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vF-hl-zUC">
+                                <rect key="frame" x="161" y="431" width="262" height="55"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="Vqz-zq-TCy"/>
+                                    <constraint firstAttribute="height" constant="55" id="eQT-VD-wYx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <size key="titleShadowOffset" width="50" height="20"/>
+                                <state key="normal" title="HAPPY TEETH">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rbz-0K-X5U" kind="show" id="zFd-UB-BIF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncv-4h-aha">
+                                <rect key="frame" x="161" y="506" width="262" height="53"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="8M7-tr-T9u"/>
+                                    <constraint firstAttribute="height" constant="53" id="aRh-aB-j0b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <size key="titleShadowOffset" width="50" height="20"/>
+                                <state key="normal" title="APPOINTMENT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="glF-Wa-5eI" kind="show" id="WeY-ly-Ug3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCI-Mh-fUi">
+                                <rect key="frame" x="163" y="272" width="262" height="56"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="2tG-D6-heV"/>
+                                    <constraint firstAttribute="width" constant="262" id="Rch-0v-1J3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <size key="titleShadowOffset" width="50" height="20"/>
+                                <state key="normal" title="ABOUT">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CY1-2B-XSd" kind="show" id="GBw-tH-3EU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepage-img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IBa-UU-JBV">
+                                <rect key="frame" x="61" y="64" width="479" height="179"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="479" id="XEn-cQ-tHF"/>
+                                    <constraint firstAttribute="height" constant="179" id="Xqc-Rb-b3I"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="toothcraft3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="71Z-h2-9hd">
+                                <rect key="frame" x="61" y="111" width="152" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="152" id="6BL-SV-XNU"/>
+                                    <constraint firstAttribute="height" constant="65" id="Vzg-p9-Ita"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Cy-KG-iV2">
+                                <rect key="frame" x="326" y="212" width="42" height="30"/>
+                                <animations/>
+                                <state key="normal" title="About"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IBa-UU-JBV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-146.5" id="FHf-7q-kEe"/>
+                            <constraint firstItem="7vF-hl-zUC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8" id="XCE-vc-7Jt"/>
+                            <constraint firstItem="uCI-Mh-fUi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aMI-zp-rbR"/>
+                            <constraint firstItem="7vF-hl-zUC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="158.5" id="ael-Cm-SCa"/>
+                            <constraint firstItem="uCI-Mh-fUi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-6" id="cO0-bf-zc9"/>
+                            <constraint firstItem="UdA-TD-6o7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8" id="glI-Mm-tDO"/>
+                            <constraint firstItem="UdA-TD-6o7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="79" id="hFW-4M-6Ze"/>
+                            <constraint firstItem="IBa-UU-JBV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="njL-7Z-Qgz"/>
+                            <constraint firstItem="ncv-4h-aha" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-8" id="sCJ-do-tz4"/>
+                            <constraint firstItem="71Z-h2-9hd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="uMe-FB-Tht"/>
+                            <constraint firstItem="ncv-4h-aha" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="232.5" id="vWj-b5-ADe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7Cy-KG-iV2"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="LXB-8c-5WR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="324" y="361"/>
+        </scene>
+        <!--Gallery View Controller-->
+        <scene sceneID="D0n-nL-oMl">
+            <objects>
+                <viewController id="cHI-MN-aaV" customClass="GalleryViewController" customModule="DentalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MCI-oA-QRe"/>
+                        <viewControllerLayoutGuide type="bottom" id="usD-9t-WnF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZZe-7S-4fk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEK-xU-leb">
+                                <rect key="frame" x="298" y="28" width="54" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AbZ-gx-TXo">
+                                <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zcT-4c-Wej">
+                                    <size key="itemSize" width="250" height="250"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="5IL-x4-lAB" customClass="CollectionViewCell" customModule="DentalApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZ6-vv-dIf">
+                                                    <rect key="frame" x="0.0" y="221" width="250" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4xn-ei-WS5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="4xn-ei-WS5" firstAttribute="leading" secondItem="5IL-x4-lAB" secondAttribute="leading" id="Cj5-Zv-BUL"/>
+                                            <constraint firstItem="lZ6-vv-dIf" firstAttribute="trailing" secondItem="4xn-ei-WS5" secondAttribute="trailing" id="cgQ-xj-RwR"/>
+                                            <constraint firstItem="4xn-ei-WS5" firstAttribute="top" secondItem="5IL-x4-lAB" secondAttribute="top" id="dta-0H-QAG"/>
+                                            <constraint firstItem="lZ6-vv-dIf" firstAttribute="leading" secondItem="4xn-ei-WS5" secondAttribute="leading" id="kKa-7J-lIS"/>
+                                            <constraint firstItem="lZ6-vv-dIf" firstAttribute="bottom" secondItem="5IL-x4-lAB" secondAttribute="bottomMargin" id="mIN-9G-y7K"/>
+                                            <constraint firstAttribute="trailing" secondItem="4xn-ei-WS5" secondAttribute="trailing" id="ujb-BZ-86O"/>
+                                            <constraint firstAttribute="bottom" secondItem="4xn-ei-WS5" secondAttribute="bottom" id="wcj-DV-fAR"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="4xn-ei-WS5" id="cco-6U-ywZ"/>
+                                            <outlet property="titleLabel" destination="lZ6-vv-dIf" id="Igw-Ot-2oB"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="cHI-MN-aaV" id="5Gh-bt-FoC"/>
+                                    <outlet property="delegate" destination="cHI-MN-aaV" id="VRd-ko-lO8"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jEK-xU-leb" firstAttribute="leading" secondItem="ZZe-7S-4fk" secondAttribute="leading" constant="298" id="8La-8G-piM"/>
+                            <constraint firstItem="AbZ-gx-TXo" firstAttribute="top" secondItem="MCI-oA-QRe" secondAttribute="bottom" id="ewl-eC-pCE"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="AbZ-gx-TXo" secondAttribute="bottom" constant="-64" id="h3b-pG-gLC"/>
+                            <constraint firstAttribute="trailing" secondItem="AbZ-gx-TXo" secondAttribute="trailing" id="hZx-7o-9L2"/>
+                            <constraint firstItem="AbZ-gx-TXo" firstAttribute="leading" secondItem="ZZe-7S-4fk" secondAttribute="leading" id="qef-pe-ZHn"/>
+                            <constraint firstItem="MCI-oA-QRe" firstAttribute="top" secondItem="jEK-xU-leb" secondAttribute="bottom" constant="15" id="wdh-57-vsi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="AbZ-gx-TXo" id="WdC-3a-M7e"/>
+                        <segue destination="epu-P2-FXT" kind="show" identifier="showImage" id="8qi-B3-IZj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pt3-aQ-kp9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="-321"/>
+        </scene>
+        <!--Enlarged Image View Controller-->
+        <scene sceneID="PHz-Sr-npx">
+            <objects>
+                <viewController id="epu-P2-FXT" customClass="EnlargedImageViewController" customModule="DentalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wbw-2O-kwy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lsp-fM-RSr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7xp-Nq-SU8">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0xE-rs-iIN">
+                                <rect key="frame" x="-116" y="0.0" width="723" height="696"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="723" id="WzZ-Bq-X7U"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0xE-rs-iIN" firstAttribute="top" secondItem="7xp-Nq-SU8" secondAttribute="top" id="Pp0-Db-kOW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0xE-rs-iIN" secondAttribute="trailing" constant="-23" id="j44-On-R0a"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="0xE-rs-iIN" secondAttribute="bottom" constant="-96" id="sWa-2L-1aU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="0xE-rs-iIN" id="eoz-Jc-VHV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IKk-TV-hFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="-321"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6uu-Di-RgP">
+            <objects>
+                <viewController id="glF-Wa-5eI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bjh-9M-EZ1"/>
+                        <viewControllerLayoutGuide type="bottom" id="GpS-7O-wDH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VWD-Sy-7bl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cME-Es-4Y2">
+                                <rect key="frame" x="251" y="195" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="287-yg-0n2">
+                                <rect key="frame" x="253" y="252" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25x-sC-VKR">
+                                <rect key="frame" x="251" y="143" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clV-u6-hEd">
+                                <rect key="frame" x="251" y="58" width="99" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="MM/DD/YYYY" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="USx-f4-bBv">
+                                <rect key="frame" x="246" y="304" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85H-fT-VJc">
+                                <rect key="frame" x="71" y="304" width="140" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evd-vR-vkb">
+                                <rect key="frame" x="69" y="365" width="142" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="00:00:00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CMO-5B-54N">
+                                <rect key="frame" x="246" y="356" width="97" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vNt-wt-oej">
+                                <rect key="frame" x="193" y="419" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="woP-46-Abg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="1090"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CKa-1S-MTd">
+            <objects>
+                <viewController id="2DK-iy-0QH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fWv-bg-Avo"/>
+                        <viewControllerLayoutGuide type="bottom" id="2aA-Le-Or5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KOd-At-qlb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXv-4b-fRM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="1090"/>
+        </scene>
+        <!--Tap For Tip View Controller-->
+        <scene sceneID="vrS-Z4-rCg">
+            <objects>
+                <viewController id="rbz-0K-X5U" customClass="TapForTipViewController" customModule="DentalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fct-7b-3Kz"/>
+                        <viewControllerLayoutGuide type="bottom" id="qkC-sg-7hZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MbI-Pn-O9j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zen-mP-h2e">
+                                <rect key="frame" x="152" y="453" width="297" height="49"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="TeW-32-heY"/>
+                                    <constraint firstAttribute="width" constant="297" id="egF-RU-hgt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="TAP FOR TIP">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="random:" destination="rbz-0K-X5U" eventType="touchUpInside" id="PKf-68-81i"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The path to having white and healthy teeth starts here. Click on the button below to reveal a tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fcd-AK-yWB">
+                                <rect key="frame" x="151" y="144" width="297" height="232"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="232" id="avt-a3-Ldc"/>
+                                    <constraint firstAttribute="width" constant="297" id="eN8-8Y-jkU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fcd-AK-yWB" firstAttribute="centerY" secondItem="MbI-Pn-O9j" secondAttribute="centerY" constant="-40" id="1RW-fe-eTF"/>
+                            <constraint firstItem="Fcd-AK-yWB" firstAttribute="centerX" secondItem="MbI-Pn-O9j" secondAttribute="centerX" id="B4A-UL-bt8"/>
+                            <constraint firstItem="zen-mP-h2e" firstAttribute="centerX" secondItem="MbI-Pn-O9j" secondAttribute="centerX" id="Twr-dX-P6V"/>
+                            <constraint firstItem="zen-mP-h2e" firstAttribute="top" secondItem="Fcd-AK-yWB" secondAttribute="bottom" constant="76" id="imu-o3-nIC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="Fcd-AK-yWB" id="PeT-cP-zIG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJC-o5-Rou" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-368" y="1090"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="r9L-YY-0hq">
+            <objects>
+                <viewController id="CY1-2B-XSd" customClass="AboutViewController" customModule="DentalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yhm-JH-7WF"/>
+                        <viewControllerLayoutGuide type="bottom" id="2mM-Cc-cCR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4OW-cl-dOn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT US" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afe-QZ-SmD">
+                                <rect key="frame" x="128" y="79" width="344" height="52"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.70141648379999999" green="0.95559106689999995" blue="0.2849850216" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="Ed9-0b-FAk"/>
+                                    <constraint firstAttribute="width" constant="344" id="RKG-Si-Xgz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mec-19-uvL">
+                                <rect key="frame" x="126" y="153" width="347" height="382"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="347" id="hVz-gB-7gr"/>
+                                </constraints>
+                                <string key="text">
+We provide comprehensive care to our patients. You will get a thorough understanding of your dental issues and what can be done to help you be in optimal dental health.
+Oral Health
+The hectic pace of today's adult lifestyle often leaves little time for the daily oral health care routine needed to prevent cavities and periodontal disease. This is unfortunate since periodontal disease is the most common cause of tooth loss in adults.
+Early detection of periodontal disease reduces the risk of permanent damage to teeth and gums and can prevent more extensive and costly treatment in later years.
+Regular professional visits, every six months or as scheduled by our dental experts, will help you learn more about proper care for your teeth and gums. Regular professional visits are important because gingivitis, the early stage of periodontal disease, is usually painless; you may not be able to detect it on your own.
+Dental Cleanings
+Dental cleaning is the removal of dental plaque (a soft, sticky, bacteria infested film) and tartar ('calculus') from the teeth. Dental cleanings are necessary to prevent cavities, gingivitis, and gum disease. If left untreated, severe gum disease can result in tooth loss.
+Cleaning and polishing of the teeth leaves the surfaces of the teeth clean and smooth so that bacteria are unable to stick to them.
+The dentist will use specialized instruments to gently remove these deposits without harming the teeth. First, the dentist will use an ultrasonic device that emits vibrations to knock larger pieces of tartar loose. The ultrasonic device sprays a cooling mist of water while it works to wash away debris and keep the area at a comfortable temperature. Next, hand tools called scalers and curettes are used to manually remove smaller deposits and smooth the tooth surfaces.
+Once all the tooth surfaces have been cleaned of tartar and plaque, the teeth are polished. Prophylaxis paste is applied to the teeth to make them shiny and smooth or the dentist may also apply fluoride to the teeth to help strengthen the tooth enamel.</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2mM-Cc-cCR" firstAttribute="top" secondItem="Mec-19-uvL" secondAttribute="bottom" constant="65" id="8v6-cC-hhr"/>
+                            <constraint firstItem="Mec-19-uvL" firstAttribute="top" secondItem="afe-QZ-SmD" secondAttribute="bottom" constant="22" id="Mci-of-au0"/>
+                            <constraint firstItem="afe-QZ-SmD" firstAttribute="top" secondItem="yhm-JH-7WF" secondAttribute="bottom" constant="15" id="ajQ-EO-Yad"/>
+                            <constraint firstItem="Mec-19-uvL" firstAttribute="centerX" secondItem="4OW-cl-dOn" secondAttribute="centerX" id="eCf-50-Nix"/>
+                            <constraint firstItem="afe-QZ-SmD" firstAttribute="centerX" secondItem="Mec-19-uvL" secondAttribute="centerX" id="nCF-P5-8eT"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jlc-BK-SVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1024" y="361"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ooF-Yn-j0a">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MM7-We-mlV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eIK-zP-DKe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Kdv-gt-uMe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMp-En-Xvx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-368" y="385"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="homepage-img.jpg" width="3267" height="1500"/>
+        <image name="toothcraft3.jpg" width="200" height="83"/>
+    </resources>
 </document>

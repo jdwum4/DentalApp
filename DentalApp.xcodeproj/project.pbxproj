@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B97222C1C065CC7006379CA /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97222B1C065CC7006379CA /* GalleryViewController.swift */; };
+		9B97222E1C065CF6006379CA /* EnlargedImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97222D1C065CF6006379CA /* EnlargedImageViewController.swift */; };
+		9B9722301C065D90006379CA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B97222F1C065D90006379CA /* CollectionViewCell.swift */; };
+		B1A13A071C00CB3600530BDA /* homepage-img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A13A061C00CB3600530BDA /* homepage-img.jpg */; };
+		B1A13A091C00CBBE00530BDA /* toothcraft3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1A13A081C00CBBE00530BDA /* toothcraft3.jpg */; };
+		B1E20E1B1C00E49C00BC19A1 /* TapForTipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E20E1A1C00E49C00BC19A1 /* TapForTipViewController.swift */; };
+		B1E20E1D1C00EDAD00BC19A1 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E20E1C1C00EDAD00BC19A1 /* AboutViewController.swift */; };
 		E9D12E6D1BFAA8DB00B5EC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D12E6C1BFAA8DB00B5EC6B /* AppDelegate.swift */; };
 		E9D12E6F1BFAA8DB00B5EC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D12E6E1BFAA8DB00B5EC6B /* ViewController.swift */; };
 		E9D12E721BFAA8DB00B5EC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D12E701BFAA8DB00B5EC6B /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B97222B1C065CC7006379CA /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		9B97222D1C065CF6006379CA /* EnlargedImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnlargedImageViewController.swift; sourceTree = "<group>"; };
+		9B97222F1C065D90006379CA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B1A13A061C00CB3600530BDA /* homepage-img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "homepage-img.jpg"; sourceTree = SOURCE_ROOT; };
+		B1A13A081C00CBBE00530BDA /* toothcraft3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toothcraft3.jpg; sourceTree = SOURCE_ROOT; };
+		B1E20E1A1C00E49C00BC19A1 /* TapForTipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapForTipViewController.swift; sourceTree = "<group>"; };
+		B1E20E1C1C00EDAD00BC19A1 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		E9D12E691BFAA8DB00B5EC6B /* DentalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DentalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D12E6C1BFAA8DB00B5EC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D12E6E1BFAA8DB00B5EC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +114,14 @@
 				E9D12E6C1BFAA8DB00B5EC6B /* AppDelegate.swift */,
 				E9D12E6E1BFAA8DB00B5EC6B /* ViewController.swift */,
 				E9D12E701BFAA8DB00B5EC6B /* Main.storyboard */,
+				9B97222F1C065D90006379CA /* CollectionViewCell.swift */,
+				9B97222D1C065CF6006379CA /* EnlargedImageViewController.swift */,
+				9B97222B1C065CC7006379CA /* GalleryViewController.swift */,
+				B1E20E1C1C00EDAD00BC19A1 /* AboutViewController.swift */,
+				B1E20E1A1C00E49C00BC19A1 /* TapForTipViewController.swift */,
 				E9D12E731BFAA8DB00B5EC6B /* Assets.xcassets */,
+				B1A13A081C00CBBE00530BDA /* toothcraft3.jpg */,
+				B1A13A061C00CB3600530BDA /* homepage-img.jpg */,
 				E9D12E751BFAA8DB00B5EC6B /* LaunchScreen.storyboard */,
 				E9D12E781BFAA8DB00B5EC6B /* Info.plist */,
 			);
@@ -232,6 +253,8 @@
 				E9D12E771BFAA8DB00B5EC6B /* LaunchScreen.storyboard in Resources */,
 				E9D12E741BFAA8DB00B5EC6B /* Assets.xcassets in Resources */,
 				E9D12E721BFAA8DB00B5EC6B /* Main.storyboard in Resources */,
+				B1A13A091C00CBBE00530BDA /* toothcraft3.jpg in Resources */,
+				B1A13A071C00CB3600530BDA /* homepage-img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D12E6F1BFAA8DB00B5EC6B /* ViewController.swift in Sources */,
+				B1E20E1B1C00E49C00BC19A1 /* TapForTipViewController.swift in Sources */,
+				9B97222E1C065CF6006379CA /* EnlargedImageViewController.swift in Sources */,
+				9B9722301C065D90006379CA /* CollectionViewCell.swift in Sources */,
+				9B97222C1C065CC7006379CA /* GalleryViewController.swift in Sources */,
+				B1E20E1D1C00EDAD00BC19A1 /* AboutViewController.swift in Sources */,
 				E9D12E6D1BFAA8DB00B5EC6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DentalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdwumfour.DentalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DentalApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdwumfour.DentalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +514,7 @@
 				E9D12E931BFAA8DB00B5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D12E941BFAA8DB00B5EC6B /* Build configuration list for PBXNativeTarget "DentalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +523,7 @@
 				E9D12E961BFAA8DB00B5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9D12E971BFAA8DB00B5EC6B /* Build configuration list for PBXNativeTarget "DentalAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +532,7 @@
 				E9D12E991BFAA8DB00B5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
